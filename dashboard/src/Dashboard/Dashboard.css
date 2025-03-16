@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-slider .ant-slider-track {
+  @apply bg-blue-500;
+}
+
+.custom-slider .ant-slider-handle {
+  @apply border-blue-500;
+}
+
+.dark .custom-slider .ant-slider-rail {
+  @apply bg-gray-700;
+}
+
+.dark .ant-select-dropdown {
+  @apply bg-gray-800 border-gray-700;
+}
+
+.dark .ant-select-item {
+  @apply text-white hover:bg-gray-700;
+}
